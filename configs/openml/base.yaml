@@ -1,0 +1,15 @@
+inherit:
+    - ../base.yaml
+
+model:
+    pred_type: classification
+
+training:
+    curriculum:
+        points:
+            start: 11
+            end: 41
+            inc: 2
+
+out_dir: ./results2/openml_baseline
+debug_mode: False

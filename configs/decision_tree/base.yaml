@@ -1,0 +1,13 @@
+inherit:
+    - ../base.yaml
+
+training:
+    task_name: decision_tree
+    curriculum:
+        points:
+            start: 26
+            end: 101
+            inc: 5
+
+out_dir: ./results2/decision_tree_baseline
+debug_mode: False

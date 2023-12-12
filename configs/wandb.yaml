@@ -1,0 +1,4 @@
+wandb:
+    project: loop_tf
+    notes:
+    log_every_steps: 100
